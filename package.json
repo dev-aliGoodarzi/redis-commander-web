@@ -1,17 +1,11 @@
 {
   "name": "redis-commander",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "redis-commander --http-auth-username admin --http-auth-password admin123 --redis-host localhost --redis-port 6379"
+    "start": "node start.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "cross-env": "^10.1.0",
     "redis-commander": "^0.9.0"
   }
 }
